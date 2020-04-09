@@ -1,0 +1,2 @@
+# sudokuSol
+Sudoku solving script
