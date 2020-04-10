@@ -1,7 +1,8 @@
-import problemBank02 as pb
+import problemBank01 as pb
 
 
 # Reference Sudoku problem https://www.websudoku.com/?level=1&set_id=890454051
+'''
 problem = [
     [4, 0, 0, 0, 0, 0, 8, 0, 5],
     [0, 3, 0, 0, 0, 0, 0, 0, 0],
@@ -13,8 +14,7 @@ problem = [
     [5, 0, 0, 2, 0, 0, 0, 0, 0],
     [1, 0, 4, 0, 0, 0, 0, 0, 0], 
 ]
-
-#problem = pb.problem1
+'''
 def print_problem(problem):
     lines = ''
     for row in range(9):
@@ -121,6 +121,7 @@ def solution(problem):
     return False
     
 
+problem = pb.problem10
 print_problem(problem)
 solution(problem)
 print('solution below \n')
