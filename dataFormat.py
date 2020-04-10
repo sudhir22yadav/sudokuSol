@@ -12,7 +12,8 @@ def print_problem(problem):
                 lines += word + '],'
         lines += '\n'
     return lines
-    
+
+# reading the writing data into desired format in the py files to use later on
 def dataFormat(filetxt, filepy):
     with open(filetxt, 'r') as sol:
         ls = sol.read()
